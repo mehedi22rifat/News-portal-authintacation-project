@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../Root/Root";
 import Home from "../Page/Home/Home";
+import Login from "../Login/Login";
 
 
 
@@ -12,6 +13,10 @@ import Home from "../Page/Home/Home";
                {
                 path:"/",
                 element:<Home></Home>
+               },
+               {
+                path:"/login",
+                element:<Login></Login>
                }
             ]
             
